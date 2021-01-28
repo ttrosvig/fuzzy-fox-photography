@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-	const message = process.env.MESSAGE || 'failed';
+	const message = process.env.REACT_APP_MESSAGE || 'failed';
 	return (
 		<div className="App">
 			<header className="App-header">
